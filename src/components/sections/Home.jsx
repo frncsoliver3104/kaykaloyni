@@ -10,7 +10,11 @@ export const Home = () => {
       className="min-h-screen flex items-center justify-center relative"
     >
       <RevealOnScroll>
-
+<img
+            src={image} // Use the imported image here
+            alt="A visual representation of my web development skills" // Provide a more descriptive alt text
+            className="rounded-lg" // Add margin-bottom for spacing
+          />
       <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
             Hi, I'm Khyle Alexander Pabalinas
@@ -22,11 +26,7 @@ export const Home = () => {
           <p className="text-lg text-gray-600 mb-8">
             I am a web developer with a passion for creating beautiful and functional web applications.
           </p>
-          <img
-            src={image} // Use the imported image here
-            alt="A visual representation of my web development skills" // Provide a more descriptive alt text
-            className="rounded-lg" // Add margin-bottom for spacing
-          />
+          
           <div className="flex justify-center space-x-4">
             <a
               href="#projects"
